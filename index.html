@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- ナビゲーションバー(ヘッダーメニュー) -->
-    <div class="fixed-top">
+    <div class="fixed-top"> <!-- Bootstrapのクラス -->
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3 p-3">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,13 +28,13 @@
                       <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#About">About</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Works</a>
+                      <a class="nav-link" href="#Works">Works</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
                   </li>
               </ul>
           </div>
@@ -50,8 +50,10 @@
       </div>
 
       <!-- 見出し(About) -->
-      <div class="about">
-        <h2>About</h2>
+      <div id="About">
+        <div class="About-index">
+          <h2>About</h2>
+        </div>
       </div>
 
       <!-- プロフィールの部分 -->
@@ -111,8 +113,10 @@
       </div>
 
       <!-- 見出し(Works) -->
-      <div class="works">
-        <h2>Works</h2>
+      <div id="Works">
+        <div class="Works-index">
+          <h2>Works</h2>
+        </div>
       </div>
 
       <!-- Worksの部分 -->
@@ -174,13 +178,15 @@
         <img src="img/グループ 32.png" alt="サンプル画像" class="rounded img-fluid float-end p-5" />
       </div>
       <!-- フッター -->
-      <div class="footer">
-        <section>
-          <h2>Contacts</h2>
-          <footer>
-            haru0114imai@gmail.com
-          </footer>
-        </section>
+      <div id="Contact">
+        <div class="footer">
+          <section>
+            <h2>Contact</h2>
+            <footer>
+              haru0114imai@gmail.com
+            </footer>
+          </section>
+        </div>
       </div>
   　</main>
   </body>
