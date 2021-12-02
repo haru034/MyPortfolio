@@ -11,7 +11,7 @@
 }
 
 /* 見出し(About) */
-.about {
+.About-index {
     text-align: center;
     border: 4px solid;
     border-color: black;
@@ -61,7 +61,7 @@
 }
 
 /* 見出し(Works) */
-.works {
+.Works-index {
     text-align: center;
     border: 4px solid;
     border-color: black;
