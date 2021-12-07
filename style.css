@@ -60,6 +60,10 @@
     margin-bottom: 20px;
 }
 
+.hobby-writings {
+    list-style: none;
+}
+
 /* 見出し(Works) */
 .Works-index {
     text-align: center;
