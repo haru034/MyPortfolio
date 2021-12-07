@@ -27,10 +27,16 @@
 }
 
 .profile-text {
+    max-width: 75%;
     margin-top: 20px; /* 上の余白を指定 */
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.outer-profile {
+    display: flex;
+}
+
 
 /* 将来像の部分 */
 .future-container {
@@ -40,10 +46,14 @@
 }
 
 .future-text {
+    max-width: 75%;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 120px; /* 下の余白を指定 */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outer-future {
+    display: flex;
 }
 
 /* 趣味の部分 */
@@ -54,10 +64,14 @@
 }
 
 .hobby-text {
+    max-width: 75%;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outer-hobby {
+    display: flex;
 }
 
 .hobby-writings {
@@ -84,10 +98,14 @@
 }
 
 .work0-text {
+    max-width: 75%;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outer-work0 {
+    display: flex;
 }
 
 /* Twitterクローン */
@@ -98,10 +116,14 @@
 }
 
 .work1-text {
+    max-width: 75%;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outer-work1 {
+    display: flex;
 }
 
 /* Laravel-TODOアプリ */
@@ -112,10 +134,14 @@
 }
 
 .work2-text {
+    max-width: 75%;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outer-work2 {
+    display: flex;
 }
 
 /* Laravel-会員管理システム(CRUD) */
@@ -126,10 +152,14 @@
 }
 
 .work3-text {
+    max-width: 75%;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outer-work3 {
+    display: flex;
 }
 
 /* フッター */
@@ -140,5 +170,4 @@
     margin-top: -4px;
     color: white;
     background-color: black;
-    margin-bottom: -20px;
 }
