@@ -108,6 +108,10 @@
     display: flex;
 }
 
+.work0-writings {
+    list-style: none;
+}
+
 /* Twitterクローン */
 .work1 {
     border: 4px solid;
@@ -124,6 +128,10 @@
 
 .outer-work1 {
     display: flex;
+}
+
+.work1-writings {
+    list-style: none;
 }
 
 /* Laravel-TODOアプリ */
@@ -144,6 +152,10 @@
     display: flex;
 }
 
+.work2-writings {
+    list-style: none;
+}
+
 /* Laravel-会員管理システム(CRUD) */
 .work3 {
     border: 4px solid;
@@ -160,6 +172,10 @@
 
 .outer-work3 {
     display: flex;
+}
+
+.work3-writings {
+    list-style: none;
 }
 
 /* フッター */
