@@ -35,6 +35,7 @@
 
 .outer-profile {
     display: flex;
+    flex-wrap: wrap; /* display: flex;の下に追加することで、レスポンシブ対応になる。 */
 }
 
 
@@ -54,6 +55,7 @@
 
 .outer-future {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* 趣味の部分 */
@@ -72,6 +74,7 @@
 
 .outer-hobby {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .hobby-writings {
@@ -106,6 +109,7 @@
 
 .outer-work0 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .work0-writings {
@@ -128,6 +132,7 @@
 
 .outer-work1 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .work1-writings {
@@ -150,6 +155,7 @@
 
 .outer-work2 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .work2-writings {
@@ -172,6 +178,7 @@
 
 .outer-work3 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .work3-writings {
