@@ -13,39 +13,44 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- style.cssの読み込み ←ココ大事! -->
     <link href="style.css" rel="stylesheet">
+    
+    <!-- JavaScriptのバージョン(4.5)を読み込み(ハンバーガーメニューの開閉ができなかったので、参考サイトが使用しているバージョンを読み込む必要があった) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <!-- ナビゲーションバー(ヘッダーメニュー) -->
-    <div class="fixed-top"> <!-- Bootstrapのクラス -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3 p-3">
-        <!-- ハンバーガーメニュー -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#"><h3>MyPortfolio</h3></a>
-          <div class="collapse navbar-collapse justify-content-end"> <!-- justify-content-endで文字を右寄せ -->
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a class="nav-link" href="#"><h4>Home</h4></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#About"><h4>About</h4></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#Works"><h4>Works</h4></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Contact"><h4>Contact</h4></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/haru034?tab=repositories">
-                      <img src="img/github.png" alt="GitHubアイコン画像" class="main-img img-fluid"/>
-                    </a>
-                  </li>
-              </ul>
-          </div>
-      </nav>
-    </div>
+    <nav class="fixed-top navbar navbar-expand-sm navbar-light bg-light mb-3 p-3">
+      <!-- ハンバーガーメニュー -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"><h3>MyPortfolio</h3></a>
+      <!-- ハンバーガーメニュークリック時に開閉する設定 -->
+      <div id="navbarNav" class="collapse navbar-collapse justify-content-end"> <!-- justify-content-endで文字を右寄せ -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><h4>Home</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About"><h4>About</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Works"><h4>Works</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact"><h4>Contact</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/haru034?tab=repositories">
+              <img src="img/github.png" alt="GitHubアイコン画像" class="main-img img-fluid"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- メイン(About、Worksの部分) -->
     <main class="main-v">
