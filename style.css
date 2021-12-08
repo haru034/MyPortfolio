@@ -1,17 +1,5 @@
-.navbar-light .navbar-toggler {
-    border-color: rgba(0, 0, 0, 0); /* ハンバーガーメニューの枠線を削除 */
-}
-
 .body {
     padding-top: 60px;
-}
-
-.fixed-top {
-    padding-bottom: 86px;
-}
-
-.main-container {
-    margin-top: 72px;
 }
 
 /* 見出し(About) */
