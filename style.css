@@ -72,7 +72,8 @@
 
 .hobby-picture {
     box-shadow: 12px 12px 4px gray;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 /* 見出し(Works) */
@@ -113,7 +114,8 @@
 
 .work0-picture-1 {
     box-shadow: 12px 12px 4px gray;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 /* Twitterクローン */
@@ -141,7 +143,8 @@
 
 .work1-picture {
     box-shadow: 12px 12px 4px gray;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 /* Laravel-TODOアプリ */
@@ -169,7 +172,8 @@
 
 .work2-picture {
     box-shadow: 12px 12px 4px gray;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 /* Laravel-会員管理システム(CRUD) */
@@ -204,7 +208,7 @@
 .work3-picture-2 {
     box-shadow: 12px 12px 4px gray;
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .work3-picture-3 {
