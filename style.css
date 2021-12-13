@@ -2,6 +2,20 @@
     padding-top: 60px;
 }
 
+.protect { /* スマホでの長押し操作で画像を保存されるのを無効にする処理 */
+    pointer-events:none;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-touch-callout:none;
+    -moz-user-select:none;
+    touch-action:none;
+    user-select:none;
+}
+
+img {
+    pointer-events: none; /* 画像をドラッグ＆ドロップさせない・右クリックで保存させない処理 */
+}
+
 /* 見出し(About) */
 .About-index {
     text-align: center;

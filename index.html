@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="imagetoolbar" content="no" /> <!-- Internet Explorer向けイメージツールバーの無効化 -->
     <title>MyPortfolio</title>
     <!-- BootstrapのCSS読み込み -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +23,9 @@
 
       <!-- メイン画像の部分 -->
       <div class="main-container">
-        <img src="img/Portfolio-main.png" alt="メイン画像" class="main-img img-fluid"/> <!--「img-fluid」で画像をレスポンシブ対応-->
+        <div class="protect">
+          <img src="img/Portfolio-main.png" alt="メイン画像" class="main-img img-fluid"/> <!--「img-fluid」で画像をレスポンシブ対応-->
+        </div>
       </div>
 
       <!-- 見出し(About) -->
