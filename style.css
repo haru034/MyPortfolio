@@ -232,12 +232,25 @@ img {
     margin-bottom: 50px;
 }
 
-/* フッター */
-.footer {
+/* 見出し(Contact) */
+.Contact-index {
     text-align: center;
+    border-top: 2px solid;
     border-bottom: 2px solid;
     border-color: black;
     margin-top: -2px;
     color: white;
     background-color: black;
+}
+
+/* フッター */
+.footer {
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
