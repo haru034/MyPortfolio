@@ -13,7 +13,7 @@
 }
 
 img {
-    pointer-events: none; /* 画像をドラッグ＆ドロップさせない・右クリックで保存させない処理 */
+    pointer-events: none; /* 全ての画像をドラッグ＆ドロップさせない・右クリックで保存させない処理 */
 }
 
 /* 見出し(About) */
@@ -237,6 +237,32 @@ img {
 .work3-picture-3 {
     box-shadow: 12px 12px 4px gray;
     margin-bottom: 50px;
+}
+
+/* チーム開発 */
+.work4 {
+    border-color: black;
+    margin-top: -2px;
+}
+
+.work4-text {
+    max-width: 75%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outer-work4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work4-writings {
+    list-style: none;
+}
+
+.btn-work4 {
+    margin-bottom: 20px;
 }
 
 /* 見出し(Contact) */
