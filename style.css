@@ -84,7 +84,14 @@ img {
     flex-wrap: wrap;
 }
 
-.hobby-picture {
+.hobby-picture-1 {
+    box-shadow: 12px 12px 4px gray;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.hobby-picture-2 {
     box-shadow: 12px 12px 4px gray;
     margin-top: 25px;
     margin-bottom: 50px;
