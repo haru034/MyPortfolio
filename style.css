@@ -265,12 +265,6 @@ img {
     margin-bottom: 20px;
 }
 
-.background-img {
-    box-shadow: 12px 12px 4px gray;
-    background-position: center;
-    margin-bottom: 40px;
-}
-
 /* 見出し(Contact) */
 .Contact-index {
     text-align: center;
