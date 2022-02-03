@@ -45,6 +45,18 @@ img {
     flex-wrap: wrap; /* display: flex;の下に追加することで、レスポンシブ対応になる。 */
 }
 
+.architecture-1 {
+    box-shadow: 12px 12px 4px gray;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.architecture-2 {
+    box-shadow: 12px 12px 4px gray;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
 
 /* 将来像の部分 */
 .future-container {
