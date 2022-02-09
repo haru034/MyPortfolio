@@ -277,6 +277,25 @@ img {
     margin-bottom: 20px;
 }
 
+.work4-picture-1 {
+    box-shadow: 12px 12px 4px gray;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.work4-picture-2 {
+    box-shadow: 12px 12px 4px gray;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.work4-picture-3 {
+    box-shadow: 12px 12px 4px gray;
+    margin-bottom: 50px;
+}
+
 /* 見出し(Contact) */
 .Contact-index {
     text-align: center;
