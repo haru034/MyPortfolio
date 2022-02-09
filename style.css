@@ -45,6 +45,10 @@ img {
     flex-wrap: wrap; /* display: flex;の下に追加することで、レスポンシブ対応になる。 */
 }
 
+.architecture {
+    margin-left: -2rem;
+}
+
 .architecture-1 {
     box-shadow: 12px 12px 4px gray;
     margin-right: 40px;
