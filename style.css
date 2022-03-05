@@ -257,6 +257,7 @@ img {
 
 /* チーム開発 */
 .work4 {
+    border-bottom: 2px solid;
     border-color: black;
     margin-top: -2px;
 }
@@ -299,6 +300,59 @@ img {
     box-shadow: 12px 12px 4px gray;
     margin-bottom: 50px;
 }
+
+/* 自主制作 */
+.work5 {
+    border-color: black;
+    margin-top: -2px;
+}
+
+.work5-text {
+    max-width: 75%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.outer-work5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work5-writings {
+    list-style: none;
+}
+
+.btn-work5 {
+    margin-bottom: 20px;
+}
+
+.work5-picture-1 {
+    box-shadow: 12px 12px 4px gray;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.work5-picture-2 {
+    box-shadow: 12px 12px 4px gray;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.work5-picture-3 {
+    box-shadow: 12px 12px 4px gray;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.work5-picture-4 {
+    box-shadow: 12px 12px 4px gray;
+    margin-bottom: 50px;
+}
+
 
 /* 見出し(Contact) */
 .Contact-index {
